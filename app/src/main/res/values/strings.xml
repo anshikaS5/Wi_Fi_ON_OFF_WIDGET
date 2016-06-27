@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Smart Widget</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="wifi_status_not_connected">No W_Fi</string>
+
+    <string name="toast_on">Auto brightness ON</string>
+    <string name="toast_off">Auto brightness OFF</string>
+    <string name="normal_mode">normal mode</string>
+    <string name="silent_mode">silent mode</string>
+    <string name="mobile_data">mobile data off</string>
+
+</resources>

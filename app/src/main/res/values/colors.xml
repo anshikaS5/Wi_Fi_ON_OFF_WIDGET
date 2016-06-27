@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey_text">#475248</color>
+    <color name="gold">#ffcc33</color>
+    <color name="gray_color">#C2C2C2</color>
+    <color name="text_color">#1868d9</color>
+    <color name="gren_text_color">#76EE00</color>
+    <color name="gray_color_text">#a1a1a1</color>
+
+<color name="lock_screen_dialog">#3F365C</color>
+    <color name="white_color">#FFFFFF</color>
+
+</resources>

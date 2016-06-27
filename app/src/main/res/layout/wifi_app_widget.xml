@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:weightSum="5">
+        <!-- android:layout_margin="5dp"-->
+        <!-- android:layout_marginTop="5dp"-->
+        <RelativeLayout
+            android:id="@+id/ringer_relative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <!--android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"-->
+
+            <ImageView
+                android:id="@+id/ringer_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="15dp"
+
+                android:src="@mipmap/volume_on" />
+            <!--android:layout_centerInParent="true"-->
+            <TextView
+                android:id="@+id/ringer_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ringer_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Ringtone"
+                android:textColor="@color/text_color"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/ringer_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ringer_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Ringtone"
+                android:textColor="@color/gray_color_text"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+            <!--android:layout_centerInParent="true"-->
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/brightness_relative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/brightness_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="15dp"
+
+                android:src="@mipmap/brightness_high" />
+
+            <!--android:layout_centerInParent="true"-->
+            <TextView
+                android:id="@+id/brightness_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/brightness_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Brightness"
+                android:textColor="@color/text_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/brightness_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/brightness_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Brightness"
+                android:textColor="@color/gray_color_text"
+                android:textSize="10sp"
+                android:visibility="gone" />
+            <!--android:layout_centerInParent="true"-->
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/wi_fi_relative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/wifi_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="15dp"
+
+                android:src="@mipmap/wifi_on" />
+
+            <TextView
+                android:id="@+id/wifi_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wifi_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Wi-Fi"
+                android:textColor="@color/text_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/wifi_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wifi_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Wi-Fi"
+                android:textColor="@color/gray_color_text"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+            <!--android:layout_centerInParent="true"-->
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/aeroplan_Rel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/aeroplan_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="15dp"
+
+                android:src="@mipmap/flight_mode_on" />
+            <!--android:layout_centerInParent="true"-->
+            <TextView
+                android:id="@+id/aeroplan_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aeroplan_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Airplane"
+                android:textColor="@color/text_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/aeroplan_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aeroplan_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Airplane"
+                android:textColor="@color/gray_color_text"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+            <!--android:layout_centerInParent="true"-->
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/dot_rel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/more_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="15dp"
+
+                android:src="@mipmap/more_icon" />
+            <!--android:layout_centerInParent="true"-->
+            <TextView
+                android:id="@+id/dot_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/more_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="More"
+                android:textColor="@color/text_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/dot_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/more_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="More"
+                android:textColor="@color/gray_color_text"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
